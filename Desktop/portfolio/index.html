@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kevin Yu</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <div class="profile-container">
+        <img src="images/IMG_0242 (1).jpg" alt="Your Name" class="profile-image" loading="lazy">
+
+        <div class="description">
+            <p>Thanks for checking out my page! My name is <strong>Kevin Yu</strong> and welcome to my portfolio! I graduated from UC Merced with my Bachelor's Degree
+                in Applied Mathematics in 2022. However, it was not until after graduation that I coincidentally discovered the world of web development.
+                I became intrigued and wanted to learn more about how to make my very own website! Thus, my journey in front-end web development began!
+                Most of my knowledge is self-taught through various sources such as The Odin Project and YouTube. 
+            </p>
+            <p><strong>Technologies I work with:</strong></p>
+            <div class="skills-buttons">
+                <button class="keyword red">HTML</button>
+                <button class="keyword green">CSS</button>
+                <button class="keyword blue">JavaScript</button>
+                <button class="keyword yellow">React</button>
+                <button class="keyword purple">Three.js</button>
+                <button class="keyword orange">Phaser</button>
+            </div>
+
+            <p><strong>Find me here:</strong></p>
+            <div class="social-icons">
+                <div class="icon-container">
+                    <a href="https://discordapp.com/users/92475534600073216" target="_blank" class="social-icon">
+                        <img src="images/discord.svg" alt="discord">
+                    </a>
+                </div>
+                <div class="icon-container">
+                    <a href="https://github.com/KevinZer00/" target="_blank" class="social-icon">
+                        <img src="images/github.svg" alt="github">
+                    </a>
+                </div>
+                <div class="icon-container">
+                    <a href="https://www.linkedin.com/in/kevinyu99/" target="_blank" class="social-icon">
+                        <img src="images/linkedin.svg" alt="linkedin">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Projects Section -->
+<div class="projects-section">
+    <!-- Project Grid -->
+    <div class="grid">
+        <!-- Project 1 -->
+        <div class="project-card">
+            <h3>Dungeon Crawler Game</h3>
+            <img src="images/project1.PNG" alt="Screenshot of Project 1" loading="lazy">
+            <p>A single-level gamified portfolio using the Phaser JS framework, emphasizing player-enemy interactions, health systems, and UI design.</p>
+            <a href="https://kevinyu.netlify.app/" class="view-project-btn" target="_blank">Live Demo</a>
+        </div>
+        <!-- Project 2 -->
+        <div class="project-card">
+            <h3>YUGEN Robotics</h3>
+            <img src="images/project2.PNG" alt="Screenshot of Project 2" loading="lazy">
+            <p>A dynamic website for a fictional robotics company, showcasing a 3D model with interactive orbit controls using Three JS.</p>
+            <a href="https://yugenrobotics.netlify.app/" class="view-project-btn" target="_blank">Live Demo</a>
+        </div>
+        <!-- Project 3 -->
+        <div class="project-card">
+            <h3>FFMI and BMI React Calculator</h3>
+            <img src="images/project3.PNG" alt="Screenshot of Project 3" loading="lazy">
+            <p>A responsive calculator using React, integrating user inputs to compute FFMI and BMI values, complemented by interactive Chart.JS visuals.</p>
+            <a href="https://ffmibmicalculator.netlify.app" class="view-project-btn" target="_blank">Live Demo</a>
+        </div>
+        <!-- Project 4 -->
+        <div class="project-card">
+            <h3>Push Past Limits</h3>
+            <img src="images/project4.PNG" alt="Screenshot of Project 4" loading="lazy">
+            <p>A mock website for a personal trainer, leveraging HTML/CSS/JavaScript for design and integrating a Calendly widget for appointment bookings.</p>
+            <a href="https://pushpastlimits.com" class="view-project-btn" target="_blank">Live Demo</a>
+        </div>
+    </div>
+</div>
+
+<!-- Contact Section -->
+<div class="contact-section">
+    <h2>Let's chat!</h2>
+    
+    <form id="contactForm" action="your_server_endpoint_here" method="post">
+        <div class="input-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        
+        <div class="input-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        
+        <div class="input-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        
+        <button type="submit" class="submit-button">Submit</button>
+    </form>
+</div>
+<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script src = "main.js"></script>       
+</body>
+</html>
