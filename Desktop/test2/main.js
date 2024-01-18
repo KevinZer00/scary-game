@@ -231,7 +231,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 ctx.font = '100px Scary';
                 ctx.fillStyle = 'red';
                 ctx.textAlign = 'center';
-                ctx.fillText("You found it!", canvas.width / 2, canvas.height / 2 - 50);
+                ctx.fillText("You found it", canvas.width / 2, canvas.height / 2 - 50);
             }
 
 
